@@ -13,9 +13,8 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
- * Edited by Francesco Raviglione and Marco Malinverno, Politecnico di Torino
- * (francescorav.es483@gmail.com)
- * (marco.malinverno@polito.it)
+ 
+ **CAS using vth by Vaishnavi Balambeed: vhbalamb@mtu.edu
 */
 #include "appServer.h"
 
