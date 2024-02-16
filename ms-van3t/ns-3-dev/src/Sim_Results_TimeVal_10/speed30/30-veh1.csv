@@ -1,0 +1,6 @@
+self_type,self_id,other_type,other_id,current_time,self_lon,self_lat,self_speed,collision_lon,collision_lat,distance_to_the_collision,detection_time,delivery_delay
+vehicle,veh1,vehicle,2,97.69,7.65533,45.0531,1.144,45.0532,7.65599,72.9217,97684,4
+vehicle,veh1,vehicle,2,98.19,7.65535,45.0531,2.444,45.0532,7.65599,72.2474,98184,0
+vehicle,veh1,vehicle,2,98.59,7.65536,45.0531,3.484,45.0532,7.65605,76.4675,98584,0
+vehicle,veh1,vehicle,2,98.79,7.65537,45.0531,4.004,45.0532,7.65608,78.8635,98784,0
+vehicle,veh1,vehicle,2,98.99,7.65538,45.0531,4.524,45.0532,7.65606,76.0342,98984,0

@@ -1,0 +1,2 @@
+self_type,self_id,other_type,other_id,type,current_time,self_lon,self_lat,self_speed,collision_lon,collision_lat,distance_to_the_collision,detection_time,delivery_delay
+vehicle,veh7,vehicle,10,external,11.46,7.65446,45.0524,11.1111,45.0524,7.65482,39.542,11453,0

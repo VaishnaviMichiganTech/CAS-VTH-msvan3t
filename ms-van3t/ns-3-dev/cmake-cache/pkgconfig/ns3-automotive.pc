@@ -1,0 +1,13 @@
+exec_prefix="/usr/local/bin"
+libdir="/usr/local/lib"
+includedir="/usr/local/include"
+
+Name: ns3-automotive
+Description: 
+URL: 
+Version: 3.dev
+Requires:  ns3-core ns3-fd-net-device ns3-wifi ns3-applications ns3-mobility ns3-config-store ns3-stats ns3-gps-tc ns3-lte ns3-internet ns3-vehicle-visualizer ns3-traci
+Requires.private: 
+Cflags: -I"${includedir}" -I/usr/include -I/usr; -I/usr/include/freetype2 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/gtk-3.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/libxml2 -I/usr/include/python3.10
+Libs: -L"${libdir}" -lns3-dev-automotive-optimized  -lns3-dev-core-optimized -lns3-dev-fd-net-device-optimized -lns3-dev-wifi-optimized -lns3-dev-applications-optimized -lns3-dev-mobility-optimized -lns3-dev-config-store-optimized -lns3-dev-stats-optimized -lns3-dev-gps-tc-optimized -lns3-dev-lte-optimized -lns3-dev-internet-optimized -lns3-dev-vehicle-visualizer-optimized -lns3-dev-traci-optimized
+Libs.private: -L"${libdir}" 

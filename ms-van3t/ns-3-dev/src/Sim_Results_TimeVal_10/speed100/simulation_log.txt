@@ -1,0 +1,4 @@
+[0/2] Re-checking globbed directories...
+ninja: no work to do.
+Sumo: wait for socket: 1s
+Command 'build/src/automotive/examples/ns3-dev-v2i-80211p-optimized --sumo-gui=true --t2c=15 --sumo-updates=0.01 --sim-time=3600 --csv-log=100 --speed=100 --evasive-maneuver=true --time-val=10' died with <Signals.SIGABRT: 6>.

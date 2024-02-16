@@ -1,0 +1,48 @@
+Performing C++ SOURCE FILE Test HAVE_UINT128_T failed with the following output:
+Change Dir: /home/vaishnavi/project/V2I_WorkingVersion1.3/ms-van3t/ns-3-dev/cmake-cache/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_5e905 && [1/2] Building CXX object CMakeFiles/cmTC_5e905.dir/src.cxx.o
+FAILED: CMakeFiles/cmTC_5e905.dir/src.cxx.o 
+/usr/bin/c++ -DHAVE_UINT128_T  -fPIE -std=gnu++17 -o CMakeFiles/cmTC_5e905.dir/src.cxx.o -c /home/vaishnavi/project/V2I_WorkingVersion1.3/ms-van3t/ns-3-dev/cmake-cache/CMakeFiles/CMakeTmp/src.cxx
+/home/vaishnavi/project/V2I_WorkingVersion1.3/ms-van3t/ns-3-dev/cmake-cache/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main(int, char**)’:
+/home/vaishnavi/project/V2I_WorkingVersion1.3/ms-van3t/ns-3-dev/cmake-cache/CMakeFiles/CMakeTmp/src.cxx:5:18: error: ‘uint128_t’ was not declared in this scope; did you mean ‘uint8_t’?
+    5 |             if ((uint128_t *) 0) return 0;
+      |                  ^~~~~~~~~
+      |                  uint8_t
+/home/vaishnavi/project/V2I_WorkingVersion1.3/ms-van3t/ns-3-dev/cmake-cache/CMakeFiles/CMakeTmp/src.cxx:5:29: error: expected primary-expression before ‘)’ token
+    5 |             if ((uint128_t *) 0) return 0;
+      |                             ^
+/home/vaishnavi/project/V2I_WorkingVersion1.3/ms-van3t/ns-3-dev/cmake-cache/CMakeFiles/CMakeTmp/src.cxx:5:30: error: expected ‘)’ before numeric constant
+    5 |             if ((uint128_t *) 0) return 0;
+      |                ~             ^~
+      |                              )
+/home/vaishnavi/project/V2I_WorkingVersion1.3/ms-van3t/ns-3-dev/cmake-cache/CMakeFiles/CMakeTmp/src.cxx:6:25: error: ‘uint128_t’ was not declared in this scope; did you mean ‘uint8_t’?
+    6 |             if (sizeof (uint128_t)) return 0;
+      |                         ^~~~~~~~~
+      |                         uint8_t
+ninja: build stopped: subcommand failed.
+
+
+Source file was:
+#include <stdint.h>
+       int main(int argc, char **argv)
+         {
+            (void)argc; (void)argv;
+            if ((uint128_t *) 0) return 0;
+            if (sizeof (uint128_t)) return 0;
+            return 1;
+         }
+Determining if the include file net/netmap_user.h exists failed with the following output:
+Change Dir: /home/vaishnavi/project/V2I_WorkingVersion1.3/ms-van3t/ns-3-dev/cmake-cache/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/ninja cmTC_a22c7 && [1/2] Building CXX object CMakeFiles/cmTC_a22c7.dir/CheckIncludeFile.cxx.o
+FAILED: CMakeFiles/cmTC_a22c7.dir/CheckIncludeFile.cxx.o 
+/usr/bin/c++   -fPIE -std=gnu++17 -o CMakeFiles/cmTC_a22c7.dir/CheckIncludeFile.cxx.o -c /home/vaishnavi/project/V2I_WorkingVersion1.3/ms-van3t/ns-3-dev/cmake-cache/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/home/vaishnavi/project/V2I_WorkingVersion1.3/ms-van3t/ns-3-dev/cmake-cache/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: net/netmap_user.h: No such file or directory
+    1 | #include <net/netmap_user.h>
+      |          ^~~~~~~~~~~~~~~~~~~
+compilation terminated.
+ninja: build stopped: subcommand failed.
+
+
+
